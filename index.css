@@ -32,7 +32,6 @@ li a:hover, a:active{
 #home {
     margin-left: 10%;
     margin-right: 20%;
-    align-content: center;
 }
 #resume {
     float: right;
