@@ -1,0 +1,69 @@
+
+@keyframes mymove {
+    50% {font-size: 1.05em;}
+}
+header {
+    background-color: darkslategrey;
+    padding: 0;
+    margin: auto;
+    width: 65%;
+}
+header a:link, a:visited {
+    text-decoration: none;
+    color: lightgoldenrodyellow;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, Georgia, serif;
+    padding: 10px 50px 10px 50px;
+}
+header a:hover, a:active{
+    color: goldenrod;
+    text-shadow: 2px 2px lightgoldenrodyellow;
+}
+#name {
+    float: left;
+}
+#about{
+    float: left;
+}
+#contact {
+    float: left;
+}
+
+#box {
+    background-color: #2f2f2f;
+    align-content: center;
+    padding: 10px 10px 10px 10px;
+    border: 3px solid black;
+    width: 65%;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 20px;
+    box-shadow: 10px 10px black;
+    overflow: auto;
+    color: lightgoldenrodyellow;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+body {
+    background-color: darkslategray;
+    clear: both;
+}
+
+div img {
+    margin: 50px 10px 20px 10px;
+    border: 2px solid black;
+}
+div img:hover {
+    margin: 50px 10px 20px 10px;
+    border: 2px solid black;
+    box-shadow: 10px 10px black;
+}
+#photos {
+    width: 57%;
+    margin: auto;
+
+}
+div #space {
+    clear: both;
+    margin: 100px;
+}
