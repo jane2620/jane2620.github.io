@@ -3,7 +3,7 @@
     50% {font-size: 1.05em;}
 }
 header {
-    background-color: darkslategrey;
+    background-color: #A6DAE4;
     padding: 0;
     margin: auto;
     width: 65%;
@@ -29,7 +29,7 @@ header a:hover, a:active{
 }
 
 #box {
-    background-color: #2f2f2f;
+    background-color: #575757;
     align-content: center;
     padding: 10px 10px 10px 10px;
     border: 3px solid black;
@@ -45,7 +45,7 @@ header a:hover, a:active{
 }
 
 body {
-    background-color: darkslategray;
+    background-color: #A6DAE4;
     clear: both;
 }
 
