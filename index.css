@@ -1,31 +1,41 @@
 
-@keyframes mymove {
-    50% {font-size: 1.05em;}
-}
 header {
     background-color: #A6DAE4;
     padding: 0;
-    margin: auto;
-    width: 65%;
 }
-header a:link, a:visited {
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+    color: goldenrod;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, Georgia, serif;
+    font-size: 30px;
+    padding: 10px 50px 10px 50px;
+    display: inline;
+}
+li a:link, a:visited {
     text-decoration: none;
-    color: lightgoldenrodyellow;
+    color: goldenrod;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, Georgia, serif;
     padding: 10px 50px 10px 50px;
 }
-header a:hover, a:active{
+li a:hover, a:active{
     color: goldenrod;
     text-shadow: 2px 2px lightgoldenrodyellow;
 }
-#name {
+#projects {
     float: left;
 }
-#about{
-    float: left;
+#home {
+    margin-left: 10%;
+    margin-right: 20%;
+    align-content: center;
 }
-#contact {
-    float: left;
+#resume {
+    float: right;
 }
 
 #box {
@@ -47,23 +57,4 @@ header a:hover, a:active{
 body {
     background-color: #A6DAE4;
     clear: both;
-}
-
-div img {
-    margin: 50px 10px 20px 10px;
-    border: 2px solid black;
-}
-div img:hover {
-    margin: 50px 10px 20px 10px;
-    border: 2px solid black;
-    box-shadow: 10px 10px black;
-}
-#photos {
-    width: 57%;
-    margin: auto;
-
-}
-div #space {
-    clear: both;
-    margin: 100px;
 }
