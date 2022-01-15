@@ -24,10 +24,10 @@ a:hover {
     100%  {margin-top:40px}
   }
 
-.top {
+/* .top {
     animation-name: slide;
     animation-duration: 1s;
-}
+} */
 
 #box {
     background-color: #575757;
