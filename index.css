@@ -1,7 +1,7 @@
 
 a {
     text-decoration: none;
-    color: lightgoldenrodyellow;
+    color: lightgoldenrodyellow  !important;
     font-size: 20px;
     margin-left: 20px;
 }

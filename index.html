@@ -1,60 +1,109 @@
-<!doctype html>
 <html>
-    <link rel="stylesheet" href="index.css">
+
+<head>
+    <link rel="stylesheet" href="index_copy.css">
+    <link type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    rel="stylesheet">
     <meta name="description" content="Jane Castleman's personal website">
     <title>Jane Castleman</title>
-    
+</head>
     <body>
-        <div id="box" class = "top"> 
-            <h2>Hello, my name is Jane Castleman.</h2>
+        <div class="container-fluid">
+            <br>
+            <div class="row">
+                <div class="col-2"></div>
+                <div class="col-8" id="box">
+                    <div class="row">
+                        <div class="col-lg-7">
+                            <h2>Hello, my name is Jane Castleman.</h2>
+                            <p>
+                                I am a rising junior at Princeton University. I am studying Computer Science in the School of Engineering and I hope to earn certificates (minors) in
+                                Technology and Society and Environmental Studies. I'm interested in leveraging 
+                                computing technologies to solve environmental and societal problems. 
+                            </p>
+                            <p>On campus, I am the President of <em><a id="intext" href="https://www.princetonresinde.com" target="_blank">ResInDe</a></em>, a club using principles of human-centered design and development to create platforms serving the greater Princeton community. I am also part of <em><a id="intext" href="https://www.nassauweekly.com" target="_blank">The Nassau Weekly</a></em>, an alt-weekly campus publication, 
+                                as well as the <em><a id="intext" href="https://princetonrugby.com/women/" target="_blank">Women's Rugby Team</a></em>.
+                            </p>
+
+                            <h5>
+                                You can find more information through these links:
+                            </h5>
+                            <ul>
+                                <li><a id="intext" href="https://drive.google.com/file/d/1UprIKDLJTzoqzmZlTmR6LT8Ovx3YhWaY/view?usp=sharing" target="_blank">Resume</a></li>
+                                <li><a id="intext" href="https://www.linkedin.com/in/jane-castleman-73b6901aa/" target="_blank">LinkedIn</a></li>
+                                <li><a id="intext" href="https://github.com/jane2620" target="_blank">Github</a></li>
+                            </ul>
+                        </div>
+                        <div class="d-none d-lg-block col-lg-5">
+                            <img class="img-fluid" src="images/resinde_site_photo.JPG" height="300px" style="margin-top:10px">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-2"></div>
+            </div>
+
+            <br>
+            <br>
+
+            <div class="row">
+
+            </div>
             
-            <p>
-                Currently, I am a sophomore at Princeton University.
-                I am studying Computer Science in the School of Engineering and I hope to earn certificates in
-                Technology and Society and Environmental Studies. I'm interested in leveraging 
-                computing technologies to solve environmental and societal problems. 
-            </p>
-            <div></div>
-            <p>
-                On campus, I am the President of 
-                <span id="ita"><a id="intext" href="https://www.princetonresinde.com" target="_blank">ResInDe</a></span>, a club using principles of 
-                human-centered design and development to create platforms serving the 
-                greater Princeton community. Some of the projects I've worked on include
-                a browser extension that raises money for the climate crisis and a 
-                virtual board to post student entrepreneurial ventures.
+            <div class="row">
+                <div class="col-1"></div>
+                <div class="col-10" id="light-box">
+                    <table class="table">
+                        <thead>
+                            <h4>Projects</h4>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><img src="images/watershed_proj_photo.png" height="200px" width="250px"></td>
+                                <td>
+                                    <h5>Machine Learning for Hydrology Card Game</h5>
+                                    <p>Goal: Create a run a card game for local high schoolers to teach the fundamental concepts of training in machine learning as it relates to hydrology. The card game relies on pattern recognition and is hosted on a webapp. </p>
+                                    <p>Skills: visual design, educational content development</p>
+                                    <p>Technologies: Python, Flask, HTML, CSS, Bootstrap</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><img src="images/hydrogen_proj_photo.png" height="200px" width="250px"></td>
+                                <td>
+                                    <h5>Estimating Water Table Depth Using XGBoost Machine Learning models</h5>
+                                    <p>Goal: Train, validate, and test XGBoost machine learning models on obsered precipitation and temperature data across multiple years to predict water table depth around the Continental United States. </p>
+                                    <p>Skills: raw data organization, applying machine learning models to environmental data</p>
+                                    <p>Technologies: Python, SQL</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><img src="images/acaprez_proj_photo.png" height="200px" width="250px"></td>
+                                <td>
+                                    <h5>Princeton Acapella Audition platforms</h5>
+                                    <p>Goal: Build an online platform to facilitate acapella auditions for Princeton's Acaprez acapella organization, allowing auditionees to register for auditions and group leaders to manage audition times and callbacks.</p>
+                                    <p>Skills: user experience research/design, project management, three-tiered webapp design</p>
+                                    <p>Technologies: Python, SQL, JavaScript, Flask, HTML, CSS, Bootstrap</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><img src="images/nzap_proj_photo.png" height="200px" width="250px"></td>
+                                <td>
+                                    <h5>Net Zero America Employment Implications</h5>
+                                    <p>Goal: Use employment models to analyze the implications of a net-zero emissions target on local economies to understand how different sectors must adapt to a net-zero economy.</p>
+                                    <p>Skills: data analysis and visualization, technical writing</p>
+                                    <p>Technologies: Python, R</p>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="col-1"></div>
+            </div>
 
-                I am also part of <span id="ita"><a id="intext" href="https://www.nassauweekly.com" target="_blank">The Nassau Weekly</a></span>, an alt-weekly campus publication, 
-                as well as the <span id="ita"><a id="intext" href="https://princetonrugby.com/women/" target="_blank">Women's Rugby Team</a></span>, where I serve as Treasurer. I also participate 
-                in the Human Values Forum, where students and professors discuss issues relating to human values every week. 
-            </p>
+            <br>
+            <br>
 
-            <h3>
-                You can find more information through these links:
-            </h3>
-            <ul>
-                <li><a href="https://drive.google.com/file/d/1DFd8c-b19l_Ln-iGTqvp5fSLweVtBdAR/view?usp=sharing" target="_blank">Resume</a></li>
-                <li><a href="https://www.linkedin.com/in/jane-castleman-73b6901aa/" target="_blank">LinkedIn</a></li>
-                <li><a href="https://github.com/jane2620" target="_blank">Github</a></li>
-            </ul>
         </div>
-        <div id="space">  </div>
-        
-        <div class="photos">
-            <img class="first" src="images/chapel.jpg" width ="267" height="267" alt="soccer">
-            <img class="second" src="images/resinde_site_photo.JPG" width ="267" height="267" alt="portrait">
-            <img class="third" src="images/sunset.jpg" width ="267" height="267" alt="sunset">
-        </div>
-    
-        <div id="box">
-            <h2>Here are some of my favorite projects from 2021:</h2>
-            <ul>
-                <li>Analyzing National Hurricane Center data to track hurricane trends over the last century</li>
-                <li>Using employment models to analyze the implications of a net-zero emissions target on local economies</li>
-                <li>Translating C programs into ARM assembly and machine language to beat the compiler.</li>
-                <li>Improving the UI/UX design of an interface connecting healthcare providers with underserved communities.</li>
-                <li>Implementing a content-aware image resizing algorithm using dynamic programming.</li>
-            </ul>
-        </div>
+
     </body>
-    
+
 </html>
