@@ -59,47 +59,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_layout__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(5592);
 /* harmony import */ var _components_seo__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(9357);
 /* provided dependency */ var fetch = __webpack_require__(1515);
-
-
-
-
-const UsingSSR = ({
-  serverData
-}) => {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_layout__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", null, "This page is ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("b", null, "rendered server-side")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "This page is rendered server side every time the page is requested. Reload it to see a(nother) random photo from", " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("code", null, "dog.ceo/api/breed/shiba/images/random"), ":"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
-    style: {
-      width: "320px",
-      borderRadius: "var(--border-radius)"
-    },
-    alt: "A random dog",
-    src: serverData.message
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "To learn more, head over to our", " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
-    href: "https://www.gatsbyjs.com/docs/reference/rendering-options/server-side-rendering/"
-  }, "documentation about Server Side Rendering"), "."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__.Link, {
-    to: "/"
-  }, "Go back to the homepage"));
-};
-const Head = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_seo__WEBPACK_IMPORTED_MODULE_3__/* ["default"] */ .Z, {
-  title: "Using SSR"
-});
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (UsingSSR);
-async function getServerData() {
-  try {
-    const res = await fetch(`https://dog.ceo/api/breed/shiba/images/random`);
-    if (!res.ok) {
-      throw new Error(`Response failed`);
-    }
-    return {
-      props: await res.json()
-    };
-  } catch (error) {
-    return {
-      status: 500,
-      headers: {},
-      props: {}
-    };
-  }
-}
+const UsingSSR=({serverData})=>{return/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_layout__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z,null,/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1",null,"This page is ",/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("b",null,"rendered server-side")),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p",null,"This page is rendered server side every time the page is requested. Reload it to see a(nother) random photo from"," ",/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("code",null,"dog.ceo/api/breed/shiba/images/random"),":"),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img",{style:{width:"320px",borderRadius:"var(--border-radius)"},alt:"A random dog",src:serverData.message}),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p",null,"To learn more, head over to our"," ",/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a",{href:"https://www.gatsbyjs.com/docs/reference/rendering-options/server-side-rendering/"},"documentation about Server Side Rendering"),"."),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__.Link,{to:"/"},"Go back to the homepage"));};const Head=()=>/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_seo__WEBPACK_IMPORTED_MODULE_3__/* ["default"] */ .Z,{title:"Using SSR"});/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (UsingSSR);async function getServerData(){try{const res=await fetch(`https://dog.ceo/api/breed/shiba/images/random`);if(!res.ok){throw new Error(`Response failed`);}return{props:await res.json()};}catch(error){return{status:500,headers:{},props:{}};}}
 
 /***/ })
 

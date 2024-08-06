@@ -202,108 +202,11 @@ var textCenter = "index-module--textCenter--4ece3";
 var intro = "index-module--intro--0b876";
 
 ;// CONCATENATED MODULE: ./src/pages/index.js
-
-
-
-
-
-
-const links = [{
-  text: "Tutorial",
-  url: "https://www.gatsbyjs.com/docs/tutorial",
-  description: "A great place to get started if you're new to web development. Designed to guide you through setting up your first Gatsby site."
-}, {
-  text: "Examples",
-  url: "https://github.com/gatsbyjs/gatsby/tree/master/examples",
-  description: "A collection of websites ranging from very basic to complex/complete that illustrate how to accomplish specific tasks within your Gatsby sites."
-}, {
-  text: "Plugin Library",
-  url: "https://www.gatsbyjs.com/plugins",
-  description: "Learn how to add functionality and customize your Gatsby site or app with thousands of plugins built by our amazing developer community."
-}, {
-  text: "Build and Host",
-  url: "https://www.gatsbyjs.com/cloud",
-  description: "Now you’re ready to show the world! Give your Gatsby site superpowers: Build and host on Gatsby Cloud. Get started for free!"
-}];
-const samplePageLinks = [{
-  text: "Page 2",
-  url: "page-2",
-  badge: false,
-  description: "A simple example of linking to another page within a Gatsby site"
-}, {
-  text: "TypeScript",
-  url: "using-typescript"
-}, {
-  text: "Server Side Rendering",
-  url: "using-ssr"
-}, {
-  text: "Deferred Static Generation",
-  url: "using-dsg"
-}];
-const moreLinks = [{
-  text: "Join us on Discord",
-  url: "https://gatsby.dev/discord"
-}, {
-  text: "Documentation",
-  url: "https://gatsbyjs.com/docs/"
-}, {
-  text: "Starters",
-  url: "https://gatsbyjs.com/starters/"
-}, {
-  text: "Showcase",
-  url: "https://gatsbyjs.com/showcase/"
-}, {
-  text: "Contributing",
-  url: "https://www.gatsbyjs.com/contributing/"
-}, {
-  text: "Issues",
-  url: "https://github.com/gatsbyjs/gatsby/issues"
-}];
-const utmParameters = `?utm_source=starter&utm_medium=start-page&utm_campaign=default-starter`;
-const IndexPage = () => /*#__PURE__*/react.createElement(layout/* default */.Z, null, /*#__PURE__*/react.createElement("div", {
-  className: textCenter
-}, /*#__PURE__*/react.createElement(Z, {
-  src: "../images/example.png",
-  loading: "eager",
-  width: 64,
-  quality: 95,
-  formats: ["auto", "webp", "avif"],
-  alt: "",
-  style: {
-    marginBottom: `var(--space-3)`
-  },
-  __imageData: __webpack_require__(4931)
-}), /*#__PURE__*/react.createElement("h1", null, "Welcome to ", /*#__PURE__*/react.createElement("b", null, "Gatsby!")), /*#__PURE__*/react.createElement("p", {
-  className: intro
-}, /*#__PURE__*/react.createElement("b", null, "Example pages:"), " ", samplePageLinks.map((link, i) => /*#__PURE__*/react.createElement(react.Fragment, {
-  key: link.url
-}, /*#__PURE__*/react.createElement(gatsby_browser_entry.Link, {
-  to: link.url
-}, link.text), i !== samplePageLinks.length - 1 && /*#__PURE__*/react.createElement(react.Fragment, null, " \xB7 "))), /*#__PURE__*/react.createElement("br", null), "Edit ", /*#__PURE__*/react.createElement("code", null, "src/pages/index.js"), " to update this page.")), /*#__PURE__*/react.createElement("ul", {
-  className: list
-}, links.map(link => /*#__PURE__*/react.createElement("li", {
-  key: link.url,
-  className: listItem
-}, /*#__PURE__*/react.createElement("a", {
-  className: listItemLink,
-  href: `${link.url}${utmParameters}`
-}, link.text, " \u2197"), /*#__PURE__*/react.createElement("p", {
-  className: listItemDescription
-}, link.description)))), moreLinks.map((link, i) => /*#__PURE__*/react.createElement(react.Fragment, {
-  key: link.url
-}, /*#__PURE__*/react.createElement("a", {
-  href: `${link.url}${utmParameters}`
-}, link.text), i !== moreLinks.length - 1 && /*#__PURE__*/react.createElement(react.Fragment, null, " \xB7 "))));
-
-/**
+const links=[{text:"Tutorial",url:"https://www.gatsbyjs.com/docs/tutorial",description:"A great place to get started if you're new to web development. Designed to guide you through setting up your first Gatsby site."},{text:"Examples",url:"https://github.com/gatsbyjs/gatsby/tree/master/examples",description:"A collection of websites ranging from very basic to complex/complete that illustrate how to accomplish specific tasks within your Gatsby sites."},{text:"Plugin Library",url:"https://www.gatsbyjs.com/plugins",description:"Learn how to add functionality and customize your Gatsby site or app with thousands of plugins built by our amazing developer community."},{text:"Build and Host",url:"https://www.gatsbyjs.com/cloud",description:"Now you’re ready to show the world! Give your Gatsby site superpowers: Build and host on Gatsby Cloud. Get started for free!"}];const samplePageLinks=[{text:"Page 2",url:"page-2",badge:false,description:"A simple example of linking to another page within a Gatsby site"},{text:"TypeScript",url:"using-typescript"},{text:"Server Side Rendering",url:"using-ssr"},{text:"Deferred Static Generation",url:"using-dsg"}];const moreLinks=[{text:"Join us on Discord",url:"https://gatsby.dev/discord"},{text:"Documentation",url:"https://gatsbyjs.com/docs/"},{text:"Starters",url:"https://gatsbyjs.com/starters/"},{text:"Showcase",url:"https://gatsbyjs.com/showcase/"},{text:"Contributing",url:"https://www.gatsbyjs.com/contributing/"},{text:"Issues",url:"https://github.com/gatsbyjs/gatsby/issues"}];const utmParameters=`?utm_source=starter&utm_medium=start-page&utm_campaign=default-starter`;const IndexPage=()=>/*#__PURE__*/react.createElement(layout/* default */.Z,null,/*#__PURE__*/react.createElement("div",{className:textCenter},/*#__PURE__*/react.createElement(Z,{src:"../images/example.png",loading:"eager",width:64,quality:95,formats:["auto","webp","avif"],alt:"",style:{marginBottom:`var(--space-3)`},__imageData:__webpack_require__(4931)}),/*#__PURE__*/react.createElement("h1",null,"Welcome to ",/*#__PURE__*/react.createElement("b",null,"Gatsby!")),/*#__PURE__*/react.createElement("p",{className:intro},/*#__PURE__*/react.createElement("b",null,"Example pages:")," ",samplePageLinks.map((link,i)=>/*#__PURE__*/react.createElement(react.Fragment,{key:link.url},/*#__PURE__*/react.createElement(gatsby_browser_entry.Link,{to:link.url},link.text),i!==samplePageLinks.length-1&&/*#__PURE__*/react.createElement(react.Fragment,null," \xB7 "))),/*#__PURE__*/react.createElement("br",null),"Edit ",/*#__PURE__*/react.createElement("code",null,"src/pages/index.js")," to update this page.")),/*#__PURE__*/react.createElement("ul",{className:list},links.map(link=>/*#__PURE__*/react.createElement("li",{key:link.url,className:listItem},/*#__PURE__*/react.createElement("a",{className:listItemLink,href:`${link.url}${utmParameters}`},link.text," \u2197"),/*#__PURE__*/react.createElement("p",{className:listItemDescription},link.description)))),moreLinks.map((link,i)=>/*#__PURE__*/react.createElement(react.Fragment,{key:link.url},/*#__PURE__*/react.createElement("a",{href:`${link.url}${utmParameters}`},link.text),i!==moreLinks.length-1&&/*#__PURE__*/react.createElement(react.Fragment,null," \xB7 "))));/**
  * Head export to define metadata for the page
  *
  * See: https://www.gatsbyjs.com/docs/reference/built-in-components/gatsby-head/
- */
-const Head = () => /*#__PURE__*/react.createElement(seo/* default */.Z, {
-  title: "Home"
-});
-/* harmony default export */ const pages = (IndexPage);
+ */const Head=()=>/*#__PURE__*/react.createElement(seo/* default */.Z,{title:"Home"});/* harmony default export */ const pages = (IndexPage);
 
 /***/ }),
 
