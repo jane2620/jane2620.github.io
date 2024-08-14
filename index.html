@@ -1,12 +1,7 @@
 ---
 layout: home
+title: Home
 ---
-
-<!-- ---
-layout: page
-title: About
-permalink: /about/
---- -->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -14,6 +9,8 @@ permalink: /about/
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="{{ "/assets/style.css" | relative_url }}">
+  <meta name="author" content="Jane Castleman">
+  <meta name="robots" content="index, follow">    
 </head>
 <body>
   <div class="container">
@@ -22,13 +19,34 @@ permalink: /about/
             <img class="profile-pic" src="{{ "/assets/profile_picture.JPG" | relative_url }}" alt="Jane Castleman's Photo">
         </div>
         <div class="infotext-container">
+            <h3>Hi, I'm Jane Castleman</h3>
             <p>
-                Hi, I'm Jane Castleman, a master's student at Princeton University studying Computer Science. My work focuses on 
-                artificial intelligence and data science, with a particular interest in creating fair and transparent AI systems. 
-                I'm passionate about using technology to solve complex societal problems and strive to make a positive impact through my research.
+                I'm a first year CS Master's student at Princeton University
+                advised by <a href="https://www.korolova.com/" target="_blank">Aleksandra Korolova</a>. Previously, I've worked in Princeton's <a href="https://www.thejustdatalab.com/", target="_blank">Just Data Lab</a> and 
+                at Ernst & Young in their <a href="https://www.ey.com/en_us/services/big-data-analytics">Data Analytics & AI</a> practice area. I was also a member
+                of the inaugural <a href="https://goprincetontigers.com/sports/wrugby">Varsity Women's Rugby team</a> at Princeton.
             </p>
+            <p>More about my past projects <a href="/projects">here</a>.</p>
         </div>
+        <div class="moreinfo-container">
+            <br>
+            <p>
+                My current research lies at the intersection of artificial intelligence, human-computer interaction, and technology policy. I work to investigate the adverse impacts of automated systems on user agency and power using algorithmic audits to improve policies for users, developers, and regulators.
+            </p>
+            <h4 class="socials">
+                <a href="https://www.linkedin.com/in/jane-castleman/" target="_blank">linkedin</a> |     
+                <a href="https://www.github.com/jane2620" target="_blank">github</a> |     
+                <a href="/cv.pdf" target="_blank">cv</a></h4>   
+            </h4>
+        </div>
+        <div></div>
     </div>
+    <div class="news-container">
+        <h3>News</h3>
+        <ul class="news-list">
+          <li>[07/24] Paper accepted to <a href="https://www.aies-conference.com/2024/" target="_blank">AIES 2024</a>.</li>
+        </ul>
+      </div>
   </div>
 </body>
 </html>

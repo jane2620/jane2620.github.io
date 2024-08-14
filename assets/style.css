@@ -4,10 +4,11 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
+    width: 100%;
   }
   
   .container {
-    width: 90%;
+    width: 100%;
     margin: auto;
     overflow: hidden;
   }
@@ -22,43 +23,98 @@ body {
   header h1 {
     margin: 0;
   }
-
-
-.profile-container {
+  
+  .content {
+    display: flex;
+    flex-wrap: wrap;
+    background: #fff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* margin: 20px auto; */
+    align-items: flex-start;
+    max-width: none;
+  }
+  
+  .profile-container {
     flex: 0 0 auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
     margin-right: 20px;
   }
   
   .profile-pic {
     border-radius: 25px;
     width: 150px;
-    height: audo;
+    height: auto;
     display: block;
-    margin: 20px auto;
   }
-
-  .text-container {
+  
+  .infotext-container {
     flex: 1;
     text-align: left;
   }
   
-  .content {
-    background: #fff;
-    padding: 2rem;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    max-width: 800px;
-    margin: 20px auto;
-    text-align: left;
-  }
-  
-  .content h2 {
-    color: #cbcbcb;
-  }
-  
   .content p {
     color: #666;
-    font-size: 1.1rem;
+    font-size: 1rem;
     line-height: 1.5;
   }
   
+  .socials h4 {
+    white-space: pre;
+  }
+
+  .news-container {
+    background: #fff;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+}
+
+.news-container h3 {
+    color: #333;
+}
+
+.news-list {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+.news-list li {
+    margin-bottom: -3px;
+    color: #666;
+}
+
+.projects-container {
+  margin: 0 auto;
+  max-width: 800px; /* Adjust width as needed */
+  padding: 20px;
+}
+
+.project-item {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px; /* Space between project containers */
+}
+
+.project-header h4 {
+  margin-top: 0;
+  color: #333;
+}
+
+.project-header p {
+  margin: 5px 0;
+  color: #666;
+}
+
+.project-item p {
+  color: #666;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
