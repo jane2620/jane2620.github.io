@@ -2,6 +2,12 @@
 layout: home
 ---
 
+<!-- ---
+layout: page
+title: About
+permalink: /about/
+--- -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,13 +18,16 @@ layout: home
 <body>
   <div class="container">
     <div class="content">
-      <img class="profile-pic" src="{{ "/assets/profile_picture.JPG" | relative_url }}" alt="Jane Castleman's Photo">
-
-    <p>
-        Hi, I'm Jane Castleman, a master's student at Princeton University studying Computer Science. My work focuses on 
-        artificial intelligence and data science, with a particular interest in creating fair and transparent AI systems. 
-        I'm passionate about using technology to solve complex societal problems and strive to make a positive impact through my research.
-    </p>
+        <div class="profile-container">
+            <img class="profile-pic" src="{{ "/assets/profile_picture.JPG" | relative_url }}" alt="Jane Castleman's Photo">
+        </div>
+        <div class="infotext-container">
+            <p>
+                Hi, I'm Jane Castleman, a master's student at Princeton University studying Computer Science. My work focuses on 
+                artificial intelligence and data science, with a particular interest in creating fair and transparent AI systems. 
+                I'm passionate about using technology to solve complex societal problems and strive to make a positive impact through my research.
+            </p>
+        </div>
     </div>
   </div>
 </body>

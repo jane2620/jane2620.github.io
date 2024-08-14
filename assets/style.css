@@ -22,6 +22,12 @@ body {
   header h1 {
     margin: 0;
   }
+
+
+.profile-container {
+    flex: 0 0 auto;
+    margin-right: 20px;
+  }
   
   .profile-pic {
     border-radius: 25px;
@@ -29,6 +35,11 @@ body {
     height: audo;
     display: block;
     margin: 20px auto;
+  }
+
+  .text-container {
+    flex: 1;
+    text-align: left;
   }
   
   .content {
