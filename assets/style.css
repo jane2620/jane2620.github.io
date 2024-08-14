@@ -31,7 +31,6 @@ body {
   }
   
   .content {
-    display: flex;
     background: #fff;
     padding: 2rem;
     border-radius: 8px;
