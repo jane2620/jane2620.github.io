@@ -7,13 +7,13 @@ body {
   }
   
   .container {
-    width: 80%;
+    width: 90%;
     margin: auto;
     overflow: hidden;
   }
   
   header {
-    background: #333;
+    background: #e1e1e1;
     color: #fff;
     padding: 1rem 0;
     text-align: center;
@@ -38,11 +38,11 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     max-width: 800px;
     margin: 20px auto;
-    text-align: center;
+    text-align: left;
   }
   
   .content h2 {
-    color: #333;
+    color: #cbcbcb;
   }
   
   .content p {
