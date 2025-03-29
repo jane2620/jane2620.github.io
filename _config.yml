@@ -21,7 +21,7 @@
 title: Jane Castleman
 email: janeec [ at ] princeton [dot] edu
 description: >- # this means to ignore newlines until "baseurl:"
-  Last updated August 2024.
+  Last updated Dec 2024.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://jane2620.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  jane2620
