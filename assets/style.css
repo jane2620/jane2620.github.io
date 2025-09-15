@@ -90,7 +90,7 @@ body {
 .socials a {
     color: #1565c0;
     text-decoration: none;
-    margin: 0 0.3em;
+    margin: 0;
     transition: color 0.2s;
 }
 
