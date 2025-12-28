@@ -1,10 +1,10 @@
 body {
-    font-family: Cambria, 'Hoefler Text', 'Times New Roman', Times, serif;
+    font-family: Palatino, 'Palatino Linotype', 'Book Antiqua', 'Hoefler Text', 'Times New Roman', Times, serif;
     background: #fff;
     color: #222;
     margin: 0;
     padding: 0;
-    line-height: 1.6;
+    line-height: 1.4;
     min-height: 100vh;
 }
 
@@ -19,6 +19,7 @@ body {
     padding-bottom: 24px;
     border-bottom: 1px solid #ececec;
     margin-bottom: 32px;
+    font-family: 'Inter', 'Segoe UI', 'Helvetica Neue', Arial, 'Liberation Sans', sans-serif;
 }
 
 .header-title {
