@@ -19,6 +19,7 @@ title: Home
         <div class="header-title">Jane Castleman</div>
         <div class="header-subtitle">Graduate Student, Stanford University</div>
         <div class="socials">
+          <a href="https://scholar.google.com/citations?user=okvcERcAAAAJ&amp;hl=en&amp;oi=ao" target="_blank">Google Scholar</a> |
           <a href="https://www.linkedin.com/in/jane-castleman/" target="_blank">LinkedIn</a> |
           <a href="/cv.pdf" target="_blank">CV</a> |
           <a href="https://x.com/jane_castlem4n" target="_blank">X</a>
@@ -35,13 +36,11 @@ title: Home
     </section>
     <section class="moreinfo-container">
       <p>
-        My research centers around the social impacts of AI, focusing on two main areas:
-        <ul> 
-          <li>Designing and executing rigorous evaluations of data-driven systems. </li>
-          <li>Improving the reliability and safety of human-AI systems.</li>
-        </ul>
-        I primarily draw upon methods from machine learning, measurement science, statistics, and social science. Broadly, I hope my work can inform both technical and policy decisions. My work has been published in venues such as ACM FAccT and AIES.
+        I'm passionate about designing methods to measure the social impacts of AI, drawing upon theory from machine learning, statistics, measurement science, and consumer protection law.
       </p>
+      <p>
+        Most recently, I've been interested in <strong>evaluation science</strong> [<a href="https://proceedings.mlr.press/v273/castleman25a.html" target="_blank">1</a>], particularly for longitudinal AI evaluation and under real-world conditions. I also design evaluations of AI systems in <strong>high-stakes decision-making settings</strong> [<a href="https://arxiv.org/abs/2602.18550" target="_blank">2</a>, <a href="https://dl.acm.org/doi/full/10.1145/3715275.3732178" target="_blank">3</a>], and conduct <strong>third-party evaluations</strong> of deployed algorithmic systems [<a href="https://dl.acm.org/doi/10.5555/3716662.3716685" target="_blank">4</a>].
+      </p> 
       <p>
         Previously, I graduated from Princeton University, advised by <a href="https://www.korolova.com/" target="_blank">Aleksandra Korolova</a>, working in the <a href="https://citp.princeton.edu/" target="_blank">Center for Information Technology Policy</a>. I was also fortunate to collaborate with Jonathan Mayer and Lydia T. Liu. 
       </p>
@@ -56,6 +55,7 @@ title: Home
         </div>
       </div>
       <ul class="news-list">
+        <li class="news-item" data-date="2026-10">[09/26] Starting as a PhD student at Stanford University!</li>
         <li class="news-item" data-date="2026-02">[5/26] Graduated from Princeton University with a Master's in Computer Science!</li>
         <li class="news-item" data-date="2026-02">[2/26] Traveled to Paris to present our paper <a href="https://arxiv.org/abs/2602.18550v1" target="_blank">"Measuring Validity in LLM-based Resume Screening"</a> at <a href="https://www.iaseai.org/iaseai26" target="_blank">IASEAI '26</a>!</li>
         <li class="news-item" data-date="2025-12">[12/25] Excited to receive a <a href="https://ddss.princeton.edu/grants" target="_blank">DDSS Grant</a> from Princeton to support my research studying rideshare and delivery platforms alongside Professors Aleksandra Korolova and Jonathan Mayer!</li>
@@ -103,7 +103,7 @@ title: Home
     document.addEventListener('DOMContentLoaded', function() {
       const filterButtons = document.querySelectorAll('.news-filter-btn');
       const newsItems = document.querySelectorAll('.news-item');
-      const cutoffDate = '2025-09'; // Items from 08/25 onwards are "recent"
+      const cutoffDate = '2026-01'; // Items from 08/25 onwards are "recent"
       
       filterButtons.forEach(button => {
         button.addEventListener('click', function() {
